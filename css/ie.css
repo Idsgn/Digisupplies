@@ -1,0 +1,19 @@
+/*
+Ie.css
+Internet Explorer only stylesheet, because IE is bad!
+*/
+
+a.order {
+	width: 197px;
+}
+
+span.newsletter {
+	display: block;
+	position: absolute;
+	margin: 0px 0 0 240px;
+	width: 11px;
+	height: 25px;
+	line-height: 16px;
+	background-image: url("../img/layout/mail.png");
+	background-repeat: no-repeat;
+}
