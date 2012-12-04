@@ -10,10 +10,10 @@ include("inc/header.php");
 			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
 		</div>
 		<div class="small">
-			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
-			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
-			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
-			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
+			<img width="160" height="117" border="0" alt="" src="http://www.ihelicopter.nl//userfiles/images/producten/ei/160x160/13807-gfgfg545.jpg" />
+			<img width="160" height="117" border="0" alt="" src="http://www.ihelicopter.nl//userfiles/images/producten/ei/160x160/13807-gfgfg545.jpg" />
+			<img width="160" height="117" border="0" alt="" src="http://www.ihelicopter.nl//userfiles/images/producten/ei/160x160/13807-gfgfg545.jpg" />
+			<img width="160" height="117" border="0" alt="" src="http://www.ihelicopter.nl//userfiles/images/producten/ei/160x160/13807-gfgfg545.jpg" />
 			
 			<div class="clear"></div>
 		</div>

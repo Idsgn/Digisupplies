@@ -1,7 +1,6 @@
 <?php
 //Root of website (empty if not in development)
-$website = 'Onedayprice';
-$version = 'V1.0.0';
+$website = 'digisupplies';
 
 if(
 	$_SERVER['HTTP_HOST'] == '37.0.85.201' || 
@@ -16,7 +15,7 @@ if(
 if($development)
 {
 
-	$baseurl = 'http://' . $_SERVER['HTTP_HOST'] . '/' . strtolower($website) . '/' . $version . '/';
+	$baseurl = 'http://' . $_SERVER['HTTP_HOST'] . '/' . strtolower($website) . '/';
 	
 	//Database connection
 	$connect['server'] = '';

@@ -56,23 +56,14 @@ include("inc/header.php");
 		<span class="required">*</span>
 		<br />
 		
-		<label for="countryCheck">Land</label>
-			<select name="country" id="countryCheck">
-			<?php
-			include('_general/countries.php');
-			?>
-			</select>
-		<span class="required">*</span>
 		
-		<div id="streetContainer">
-			<label for="street">Straat</label>
-			<input type="text" name="street" id="street" />
-			<span class="required">*</span>
-			<br />
-		</div>
 		
 		<label for="zip">Postcode</label>
 		<input type="text" name="zip" id="zip" />
+		<span class="required">*</span>
+		<br />
+		
+		<label for="number">Huisnummer</label>
 		<input type="text" name="number" id="number" />
 		<span class="required">*</span>
 		<br />
@@ -82,6 +73,27 @@ include("inc/header.php");
 		Loaded by AJAX
 		-->
 		</div>
+		
+		<div id="streetContainer">
+			<label for="street">Straat</label>
+			<input type="text" name="street" id="street" />
+			<span class="required">*</span>
+			<br />
+		</div>
+		
+		<label for="city">Woonplaats</label>
+		<input type="text" name="city" id="city" />
+		<span class="required">*</span>
+		<br />
+		
+		<label for="countryCheck">Land</label>
+			<select name="country" id="countryCheck">
+			<?php
+			include('_general/countries.php');
+			?>
+			</select>
+		<span class="required">*</span>
+		
 		
 		<a href="#" class="other_address" id="otherAddressA" title="Een ander bezorgadres opgeven">Een ander bezorgadres opgeven</a>
 		
@@ -122,24 +134,13 @@ include("inc/header.php");
 			<span class="required">*</span>
 			<br />
 			
-			<label for="countryCheck2">Land</label>
-				<select name="country2" id="countryCheck2">
-				<?php
-				include('_general/countries.php');
-				?>
-				</select>
-			<span class="required">*</span>
-			<br />
-			
-			<div id="streetContainer2">
-				<label for="street2">Straat</label>
-				<input type="text" name="street2" id="street2" />
-				<span class="required">*</span>
-				<br />
-			</div>
 			
 			<label for="zip2">Postcode</label>
 			<input type="text" name="zip2" id="zip2" />
+			<span class="required">*</span>
+			<br />
+			
+			<label for="number2">Huisnummer</label>
 			<input type="text" name="number2" id="number2" />
 			<span class="required">*</span>
 			<br />
@@ -149,6 +150,27 @@ include("inc/header.php");
 			Loaded by AJAX
 			-->
 			</div>
+			
+			<div id="streetContainer2">
+				<label for="street2">Straat</label>
+				<input type="text" name="street2" id="street2" />
+				<span class="required">*</span>
+				<br />
+			</div>
+			
+			<label for="city">Woonplaats</label>
+			<input type="text" name="city" id="city" />
+			<span class="required">*</span>
+			<br />
+			
+			<label for="countryCheck2">Land</label>
+				<select name="country2" id="countryCheck2">
+				<?php
+				include('_general/countries.php');
+				?>
+				</select>
+			<span class="required">*</span>
+			<br />
 		</div>
 		
 		<div class="clear"></div>
@@ -193,8 +215,9 @@ include("inc/header.php");
 			</tr>
 		</table>
 		
-		<label for="comments">Opmerkingen</label>
-		<textarea name="comments" id="comments"></textarea>
+		<label for="coupon">Coupon- / kortingscode</label>
+		<input type="text" name="coupon" id="coupon" />
+		<br />
 		
 		<div class="clear"></div>
 		

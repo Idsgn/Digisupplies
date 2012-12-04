@@ -269,11 +269,13 @@ div.dayproduct h1 {
 	line-height: 24px;
 	background-color: #FFF;
 }
-
 div.dayproduct img {
 	margin: 0 auto;
-	width: 200px;
-	height: 250px;
+}
+
+div.dayproduct div.dayproduct_img {
+	height: 350px;
+	overflow: hidden;
 }
 
 div.duration {
@@ -536,10 +538,9 @@ table.cart td {
 	padding: 5px;
 }
 
-table.cart td:nth-of-type(5),
-table.cart td:nth-of-type(6) {
-	text-align: right;
-}
+	table.cart span.linethrough {
+		background: url(../img/layout/linethrough.gif) repeat-x center left;
+	}
 
 table.cart td:nth-of-type(7) {
 	text-align: center;
@@ -562,7 +563,7 @@ table.cart img.thumbnail {
 }
 
 span.sendcost {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 }
 
@@ -765,7 +766,7 @@ div.algemene_voorwaarden ol li ul.alphabetic li {
 footer {
 	margin: 25px auto 0;
 	background-color: #F2F2F2;
-	height: 132px;
+	height: 145px;
 	border-radius: 4px;
 }
 
@@ -895,21 +896,16 @@ input[type="password"] {
 	border: 1px solid #FF7F00;
 }
 
+input[name="coupon"] {
+	clear: left;
+	margin: 5px 0 0 0;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
 	float: left;
 	margin: 10px 20px 0 0;
 	clear: left;
-}
-
-input[id="zip"],
-input[id="zip2"] {
-	width: 100px;
-}
-
-input[id="number"],
-input[id="number2"] {
-	width: 63px;
 }
 
 input[type="submit"] {
@@ -975,12 +971,17 @@ div.show {
 	display: block;
 }
 
-#otherAddress,
+#otherAddress {
+	height: 0;
+	overflow: hidden;
+}
+
+/* 
 #streetContainer,
 #streetContainer2 {
 	height: 0;
 	overflow: hidden;
-}
+} */
 
 #streetContainer,
 #streetContainer2 {

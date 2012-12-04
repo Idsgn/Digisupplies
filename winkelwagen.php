@@ -51,7 +51,7 @@ include("inc/header.php");
 					?>
 					</select>
 				</td>
-				<td>&euro; 1999,95</td>
+				<td><span class="linethrough">&euro; 1999,95</span></td>
 				<td>&euro; 999,95</td>
 				<td>
 					<a href="#" title="Verwijderen"><img src="<?=$baseurl?>img/layout/cross.png" alt="Kruisje" /></a>
@@ -65,15 +65,9 @@ include("inc/header.php");
 			
 			<tr>
 				<td colspan="3"></td>
-				<td colspan="2" class="total_top">Totaal <span class="sendcost">(excl. verzendkosten)</span></td>
+				<td colspan="2" class="total_top">Totaal <span class="sendcost">(incl. BTW en &euro; 3,95 verzendkosten)</span></td>
 				<td class="total_top">&euro; 2999,85</td>
 				<td class="total_top"></td>
-			</tr>
-			<tr>
-				<td colspan="3"></td>
-				<td colspan="2" class="discount">Je totale korting</td>
-				<td class="total">&euro; 250,00</td>
-				<td class="total"></td>
 			</tr>
 		</table>
 		

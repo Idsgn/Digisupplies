@@ -3,12 +3,10 @@
 	<div class="clear"></div>
 	
 	<!-- To trigger the slider to go back -->
+	<!-- MB 04-12-2012
 	<a href="#" class="controls previous" id="previous">
 		<img src="<?=$baseurl?>img/layout/previous.png" alt="Extra aanbiedingen vorige" class="controls" />
 	</a>
-
-	<!-- 
-	Here should be a PHP or Javascript function to slide through the results 
 	-->
 	
 	<div class="products">
@@ -51,9 +49,11 @@
 	</div>
 	
 	<!-- To trigger the slider to go forward -->
+	<!-- MB 04-12-2012
 	<a href="#" class="controls next" id="next">
 		<img src="<?=$baseurl?>img/layout/next.png" alt="Extra aanbiedingen volgende" class="controls" />
 	</a>
+	-->
 	
 	<div class="clear"></div>
 </div>

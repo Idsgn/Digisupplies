@@ -53,7 +53,9 @@ include("config.php");
 		<div id="top">
 			<a href="<?=$baseurl?>inloggen.php" title="Inloggen">Inloggen</a>
 			<a href="<?=$baseurl?>account_aanmaken.php" title="Account aanmaken">Account aanmaken</a>
+			<!-- MB 04-12-2012
 			<a href="<?=$baseurl?>mijn_account.php" title="Mijn account">Mijn account</a>
+			-->
 			<a href="<?=$baseurl?>winkelwagen.php" title="Uw winkelwagen"><img src="<?=$baseurl?>img/layout/cart.png" class="cart" alt="Winkelwagentje" />1 item</a>
 			<span class="cart_total">&euro; 165,- Excl. verzendkosten</span>
 			<a href="<?=$baseurl?>winkelwagen.php" title="Bestellen">Bestellen</a>

@@ -7,7 +7,9 @@ include("inc/header.php");
 
 <div class="dayproduct">
 	<div class="deal">
-		<img src="<?=$baseurl?>img/products/product_04.png" class="" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4/ iPod" />
+		<div class="dayproduct_img">
+			<img src="http://www.onedayprice.nl/userfiles/images/producten/ei/999x330/18867-dssad.jpg" width="401" height="330" class="" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4/ iPod" />
+		</div>
 		
 		<div class="duration">
 			<span class="durability">deze deal is nog geldig voor:</span>

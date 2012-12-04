@@ -11,6 +11,7 @@ Here should be Google Analytics
 			<li><a href="service_bezorgen_afhalen.php" title="Bezorgen &amp; afhalen">Bezorgen &amp; afhalen</a></li>
 			<li><a href="service_retourneren.php" title="Retourneren">Retourneren</a></li>
 			<li><a href="service_algemene_voorwaarden.php" title="Algemene voorwaarden">Algemene voorwaarden</a></li>
+			<li><a href="service_privacy_statement.php" title="Privacy statement">Privacy statement</a></li>
 		</ul>
 	</nav>
 	
