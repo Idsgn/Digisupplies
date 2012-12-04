@@ -27,7 +27,9 @@ include("inc/header.php");
 			Sluit perfect aan en is van hoogwaardig materiaal.
 		</p>
 		
+		<!-- MB 04-05-2012
 		<span class="normal_price">normale prijs &euro; 12,95</span>
+		-->
 		<span class="only_today">alleen vandaag:</span>
 		<span class="price_now">&euro;6,95</span>
 		
