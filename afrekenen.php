@@ -55,9 +55,7 @@ include("inc/header.php");
 		<input type="text" name="phone" id="phone" />
 		<span class="required">*</span>
 		<br />
-		
-		
-		
+
 		<label for="zip">Postcode</label>
 		<input type="text" name="zip" id="zip" />
 		<span class="required">*</span>
@@ -68,11 +66,12 @@ include("inc/header.php");
 		<span class="required">*</span>
 		<br />
 		
+		<!-- MB 05-05-2012
 		<div id="locationPlaceholder">
 		<!-- 
 		Loaded by AJAX
-		-->
 		</div>
+		-->
 		
 		<div id="streetContainer">
 			<label for="street">Straat</label>
@@ -134,7 +133,6 @@ include("inc/header.php");
 			<span class="required">*</span>
 			<br />
 			
-			
 			<label for="zip2">Postcode</label>
 			<input type="text" name="zip2" id="zip2" />
 			<span class="required">*</span>
@@ -145,11 +143,12 @@ include("inc/header.php");
 			<span class="required">*</span>
 			<br />
 			
+			<!-- MB 05-12-2012
 			<div id="locationPlaceholder2">
 			<!-- 
 			Loaded by AJAX
-			-->
 			</div>
+			-->
 			
 			<div id="streetContainer2">
 				<label for="street2">Straat</label>
@@ -176,6 +175,7 @@ include("inc/header.php");
 		<div class="clear"></div>
 		
 		<!-- Select a shipment -->
+		<!-- MB 05-12-2012
 		<h2>Verzending</h2>
 		<input type="radio" name="shipment" value="pickup" id="pickup"/>
 		<label for="pickup" class="special"><strong>Afhalen (alleen op afspraak) &euro; 0,00</strong></label>
@@ -184,6 +184,8 @@ include("inc/header.php");
 		<input type="radio" name="shipment" value="GLS" id="GLS"/>
 		<label for="GLS" class="special"><strong>Verzenden met GLS</strong></label>
 		<br />
+		-->
+		
 	</div>
 	
 	<div class="grid_large">
@@ -224,18 +226,23 @@ include("inc/header.php");
 		<!-- Select a payment method -->
 		<h2>Betaalmethode</h2>
 		<input type="radio" name="payment" value="ideal" id="ideal" />
-		<label for="ideal" class="special">iDEAL</label>
-		<br />
-		
-		<input type="radio" name="payment" value="prepay" id="prepay" />
-		<label for="prepay" class="special">Vooruitbetaling</label>
+		<label for="ideal" class="special">iDeal</label>
 		<br />
 		
 		<input type="radio" name="payment" value="rembours" id="rembours" />
-		<label for="rembours" class="special">Rembours (extra kosten &euro; 29,95)</label>
+		<label for="rembours" class="special">Rembours (+ &euro; 19,95)</label>
+		<br />
+		
+		<input type="radio" name="payment" value="prepay" id="prepay" />
+		<label for="prepay" class="special">Overboeking</label>
+		<br />
+		
+		<input type="radio" name="international" value="international" id="international" />
+		<label for="international" class="special">Internationale overboeking</label>
 		<br />
 		
 		<div class="clear"></div>
+		<br />
 		
 		<input type="checkbox" name="newsletter" id="newsletter"/>
 		<label for="newsletter" class="special">Abonneer op onze nieuwsbrief</label>
