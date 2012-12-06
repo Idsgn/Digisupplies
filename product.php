@@ -3,11 +3,28 @@
 include("inc/header.php");
 ?>
 
+<!-- jQuery module -->
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$("#product_04").mlens(
+	{
+		imgSrc: $("#product_04").attr("data-big"),	// path of the hi-res version of the image
+		lensShape: "circle",				// shape of the lens (circle or square)
+		lensSize: 180,					// size of the lens (in px)
+		borderSize: 4,					// size of the lens border (in px)
+		borderColor: "#fff",				// color of the lens border (#hex)
+		borderRadius: 0					// border radius (optional, only if the shape is square)
+	});
+});
+</script>
+
+
 <!-- Product -->
 <div class="product">
 	<div class="images">
 		<div class="large">
-			<img src="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
+			<img src="<?=$baseurl?>img/products/product_04.png" id="product_04" data-big="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
 		</div>
 		<div class="small">
 			<img width="160" height="117" border="0" alt="" src="http://www.ihelicopter.nl//userfiles/images/producten/ei/160x160/13807-gfgfg545.jpg" />

@@ -35,10 +35,16 @@ include("config.php");
 		<link type="image/x-icon" rel="shortcut icon" href="<?=$baseurl?>favicon.ico" />
 
 		<!-- Javascript -->
+		<!--
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools.js"></script>
+		<script type="text/javascript" src="<?=$baseurl?>js/DS.js"></script>
+		-->
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="<?=$baseurl?>js/mlens.js"></script>
+		
 		<script type="text/javascript" src="<?=$baseurl?>js/selectivizr.js"></script>
 		<script type="text/javascript" src="<?=$baseurl?>js/selectivizr-min.js"></script>
-		<script type="text/javascript" src="<?=$baseurl?>js/DS.js"></script>
 		
 		<!-- 
 		Important for the postcode API

@@ -696,6 +696,7 @@ div.product div.information {
 	}
 	
 div.images div.large {
+	position: relative;
 	text-align: center;
 	width: 543px;
 	height: 380px;
@@ -703,11 +704,13 @@ div.images div.large {
 	border-radius: 4px;
 }
 	div.images div.large img {
+		position: relative;
 		float: none;
 		margin: 25px auto;
 		height: 200px;
 		width: 200px;
 	}
+	
 	
 div.images div.small {}
 

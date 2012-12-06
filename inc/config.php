@@ -5,6 +5,7 @@ $website = 'digisupplies';
 if(
 	$_SERVER['HTTP_HOST'] == '37.0.85.201' || 
 	$_SERVER['HTTP_HOST'] == 'localhost' || 
+	$_SERVER['HTTP_HOST'] == 'localhost:8080' || 
 	$_SERVER['HTTP_HOST'] == 'idsgnserver'
 )
 {
