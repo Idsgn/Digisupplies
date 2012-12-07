@@ -1,7 +1,5 @@
 </div>
-<!--
-Here should be Google Analytics
--->
+<!-- Here should be Google Analytics -->
 
 <footer>
 	<nav id="service">
@@ -48,10 +46,7 @@ Here should be Google Analytics
 	<div class="clear"></div>
 </footer>
 
-<!-- 
-Feel free to change the footer
--->
-
+<!-- Feel free to change the footer -->
 <footer id="copyright">
 	<p>
 	&copy; <?=date("Y") . ' ' . ucfirst($website) . '.nl'?> |

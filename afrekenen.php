@@ -66,13 +66,6 @@ include("inc/header.php");
 		<span class="required">*</span>
 		<br />
 		
-		<!-- MB 05-05-2012
-		<div id="locationPlaceholder">
-		<!-- 
-		Loaded by AJAX
-		</div>
-		-->
-		
 		<div id="streetContainer">
 			<label for="street">Straat</label>
 			<input type="text" name="street" id="street" />
@@ -143,13 +136,6 @@ include("inc/header.php");
 			<span class="required">*</span>
 			<br />
 			
-			<!-- MB 05-12-2012
-			<div id="locationPlaceholder2">
-			<!-- 
-			Loaded by AJAX
-			</div>
-			-->
-			
 			<div id="streetContainer2">
 				<label for="street2">Straat</label>
 				<input type="text" name="street2" id="street2" />
@@ -173,18 +159,6 @@ include("inc/header.php");
 		</div>
 		
 		<div class="clear"></div>
-		
-		<!-- Select a shipment -->
-		<!-- MB 05-12-2012
-		<h2>Verzending</h2>
-		<input type="radio" name="shipment" value="pickup" id="pickup"/>
-		<label for="pickup" class="special"><strong>Afhalen (alleen op afspraak) &euro; 0,00</strong></label>
-		<br />
-		
-		<input type="radio" name="shipment" value="GLS" id="GLS"/>
-		<label for="GLS" class="special"><strong>Verzenden met GLS</strong></label>
-		<br />
-		-->
 		
 	</div>
 	

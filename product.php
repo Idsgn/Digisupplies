@@ -22,13 +22,6 @@ $(document).ready(function()
 <!-- Product -->
 <div class="product">
 	<div class="images">
-	<!--
-		<div class="iamge_layout">
-			<div class="large">
-				<img src="<?=$baseurl?>img/products/product_04.png" id="product_04" data-big="<?=$baseurl?>img/products/product_04.png" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4g/ iPod" />
-			</div>
-		</div>
-	-->
 	
 		<div class="image_layout">
 			<div class="product_img">
@@ -54,9 +47,6 @@ $(document).ready(function()
 			Sluit perfect aan en is van hoogwaardig materiaal.
 		</p>
 		
-		<!-- MB 04-05-2012
-		<span class="normal_price">normale prijs &euro; 12,95</span>
-		-->
 		<span class="only_today">alleen vandaag:</span>
 		<span class="price_now">&euro;6,95</span>
 		

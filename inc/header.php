@@ -37,28 +37,17 @@ include("config.php");
 		<!-- Javascript -->
 		<?php
 		//Only use Mootools on the pages we need it!
-		if(in_array('afrekenen.php', explode('/', $_SERVER['REQUEST_URI'])))
-		{
-			echo '<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools.js"></script>' . "\n \t \t";
-			echo '<script type="text/javascript" src="' . $baseurl . 'js/DS.js"></script>';
-		}
-		else
-		{
-		?>
-		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		if(in_array('afrekenen.php', explode('/', $_SERVER['REQUEST_URI']))) { ?>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools.js"></script>
+		<script type="text/javascript" src="<?=$baseurl;?>js/DS.js"></script>
+		<?php } else { ?>		
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script type="text/javascript" src="<?=$baseurl?>js/mlens.js"></script>
-
-		<?
-		}
-		?>
-		
+		<?php }	?>
 		<script type="text/javascript" src="<?=$baseurl?>js/selectivizr.js"></script>
 		<script type="text/javascript" src="<?=$baseurl?>js/selectivizr-min.js"></script>
 		
-		<!-- 
-		Important for the postcode API
-		-->
+		<!-- Important for the postcode API -->
 		<script type="text/javascript">
 		var baseurl = '<?=$baseurl?>';
 		</script>
@@ -69,9 +58,6 @@ include("config.php");
 		<div id="top">
 			<a href="<?=$baseurl?>inloggen.php" title="Inloggen">Inloggen</a>
 			<a href="<?=$baseurl?>account_aanmaken.php" title="Account aanmaken">Account aanmaken</a>
-			<!-- MB 04-12-2012
-			<a href="<?=$baseurl?>mijn_account.php" title="Mijn account">Mijn account</a>
-			-->
 			<a href="<?=$baseurl?>winkelwagen.php" title="Uw winkelwagen"><img src="<?=$baseurl?>img/layout/cart.png" class="cart" alt="Winkelwagentje" />1 item</a>
 			<span class="cart_total">&euro; 165,- Excl. verzendkosten</span>
 			<a href="<?=$baseurl?>winkelwagen.php" title="Bestellen">Bestellen</a>

@@ -62,9 +62,7 @@ include("inc/header.php");
 		<br />
 		
 		<div id="locationPlaceholder">
-		<!-- 
-		Loaded by AJAX
-		-->
+		<!-- Loaded by AJAX -->
 		</div>
 		<br />
 		

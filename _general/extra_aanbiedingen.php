@@ -2,13 +2,6 @@
 	<h1>extra aanbiedingen</h1>
 	<div class="clear"></div>
 	
-	<!-- To trigger the slider to go back -->
-	<!-- MB 04-12-2012
-	<a href="#" class="controls previous" id="previous">
-		<img src="<?=$baseurl?>img/layout/previous.png" alt="Extra aanbiedingen vorige" class="controls" />
-	</a>
-	-->
-	
 	<div class="products">
 		<div class="header first">
 			<h2>Abs behuizing 115x65x40 mm</h2>
@@ -47,13 +40,6 @@
 		<span class="price third">&euro; 999,95</span>
 		<a href="#" class="more third" title="Lees meer over Fantasie kristallen design in-ear oortelefoon" >lees meer</a>
 	</div>
-	
-	<!-- To trigger the slider to go forward -->
-	<!-- MB 04-12-2012
-	<a href="#" class="controls next" id="next">
-		<img src="<?=$baseurl?>img/layout/next.png" alt="Extra aanbiedingen volgende" class="controls" />
-	</a>
-	-->
 	
 	<div class="clear"></div>
 </div>

@@ -290,8 +290,6 @@ div.product div.image_layout {
 	height: auto;
 }
 
-
-
 div.duration {
 	margin: 15px 0 0 0;
 }
@@ -708,23 +706,6 @@ div.product div.information {
 		line-height: 26px;
 		font-weight: bold;
 	}
-/* 	
-div.images div.large {
-	position: relative;
-	text-align: center;
-	width: 543px;
-	height: 380px;
-	border: 1px solid #F2F2F2;
-	border-radius: 4px;
-}
-	div.images div.large img {
-		position: relative;
-		float: none;
-		margin: 25px auto;
-		height: 200px;
-		width: 200px;
-	} */
-	
 	
 div.images div.small {}
 
@@ -992,13 +973,6 @@ div.show {
 	height: 0;
 	overflow: hidden;
 }
-
-/* 
-#streetContainer,
-#streetContainer2 {
-	height: 0;
-	overflow: hidden;
-} */
 
 #streetContainer,
 #streetContainer2 {
