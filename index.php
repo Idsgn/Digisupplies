@@ -3,12 +3,29 @@
 include("inc/header.php");
 ?>
 
-<!-- Homepage -->
+<!-- Mlens jQuery module -->
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$("#18867-dssad-small").mlens(
+	{
+		imgSrc: $("#18867-dssad-small").attr("data-big"),
+		lensShape: "circle",
+		lensSize: 180,
+		borderSize: 4,
+		borderColor: "#fff",
+		borderRadius: 0
+	});
+});
+</script>
 
+<!-- Homepage -->
 <div class="dayproduct">
 	<div class="deal">
-		<div class="dayproduct_img">
-			<img src="http://www.onedayprice.nl/userfiles/images/producten/ei/999x330/18867-dssad.jpg" width="401" height="330" class="" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4/ iPod" />
+		<div class="image_layout">
+			<div class="dayproduct_img">
+				<img src="<?=$baseurl?>img/products/18867-dssad-small.jpg" id="18867-dssad-small" data-big="<?=$baseurl?>img/products/18867-dssad-large.jpg" class="" alt="Sport armband geschikt voor de iPhone 3g / 3gs/ 4/ iPod" />
+			</div>
 		</div>
 		
 		<div class="duration">

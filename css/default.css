@@ -269,14 +269,28 @@ div.dayproduct h1 {
 	line-height: 24px;
 	background-color: #FFF;
 }
-div.dayproduct img {
+div.dayproduct img,
+div.product img {
 	margin: 0 auto;
+	position: relative;
 }
 
-div.dayproduct div.dayproduct_img {
+div.dayproduct div.dayproduct_img,
+div.product div.product_img {
 	height: 350px;
 	overflow: hidden;
+	position: relative;
 }
+
+div.dayproduct div.image_layout,
+div.product div.image_layout {
+	margin: 25px auto;
+	text-align: center;
+	width: 400px;
+	height: auto;
+}
+
+
 
 div.duration {
 	margin: 15px 0 0 0;
@@ -694,7 +708,7 @@ div.product div.information {
 		line-height: 26px;
 		font-weight: bold;
 	}
-	
+/* 	
 div.images div.large {
 	position: relative;
 	text-align: center;
@@ -709,7 +723,7 @@ div.images div.large {
 		margin: 25px auto;
 		height: 200px;
 		width: 200px;
-	}
+	} */
 	
 	
 div.images div.small {}

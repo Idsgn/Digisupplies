@@ -57,6 +57,28 @@ if($_POST)
 	<span class="required">*</span>
 	<br />
 		
+	<label for="zip">Postcode</label>
+	<input type="text" name="zip" id="zip" />
+	<span class="required">*</span>
+	<br />
+	
+	<label for="number">Huisnummer</label>
+	<input type="text" name="number" id="number" />
+	<span class="required">*</span>
+	<br />
+	
+	<div id="streetContainer" style="float: none;">
+		<label for="street">Straat</label>
+		<input id="street" type="text" name="street">
+		<span class="required">*</span>
+		<br />
+	</div>
+	
+	<label for="city">Woonplaats</label>
+	<input type="text" name="city" id="city" />
+	<span class="required">*</span>
+	<br />
+	
 	<label for="countryCheck">Land</label>
 		<select name="country" id="countryCheck">
 		<?php
@@ -64,36 +86,6 @@ if($_POST)
 		?>
 		</select>
 	<span class="required">*</span>
-	<br style="float: left;" />
-		
-	<div id="streetContainer" style="clear: left;">
-		<label for="street">Straat</label>
-		<input type="text" name="street" id="street" />
-		<span class="required">*</span>
-		<br />
-	</div>
-	
-	<label for="zip">Postcode</label>
-	<input type="text" name="zip" id="zip" />
-	<input type="text" name="number" id="number" />
-	<span class="required">*</span>
-	<br />
-	
-	<div id="locationPlaceholder">
-	<!-- 
-	Loaded by AJAX
-	-->
-	</div>
-	
-	<label for="country">Land</label>
-	<select name="country" id="country">
-		<option value="">Kies een land</label>
-		<!--
-		While loop for all countries		
-		-->
-	</select>
-	<span class="required">*</span>
-	<br />
 	
 	<div class="clear"></div>
 
